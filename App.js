@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { Picker } from '@react-native-picker/picker';
+
 import {
   View,
   Text,
@@ -7,7 +9,6 @@ import {
   TouchableOpacity,
   ActivityIndicator,
   Alert,
-  Picker,
   ScrollView,
   FlatList
 } from 'react-native';
